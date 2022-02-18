@@ -2,6 +2,8 @@ import React from "react";
 import Plan from "./Plan";
 import "./pricing.css"
 
+// first store plan details in Plans Array then using map function iterate on each plan to pass props to child
+
 function Pricing() {
   const plans = [
     {
