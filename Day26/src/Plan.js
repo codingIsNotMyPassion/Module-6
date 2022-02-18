@@ -1,5 +1,7 @@
 import React from "react";
 
+// Here we are creating reusable child Component which makes use of props from parent component
+
 function Plan({ name, price, features }) {
   return (
     <div className="col-lg-4">
